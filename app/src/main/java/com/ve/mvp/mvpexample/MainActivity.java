@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity implements MainContract.Main
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
+
+
         initToast();
         mainPresenter = new MainPresenter(this);
 
